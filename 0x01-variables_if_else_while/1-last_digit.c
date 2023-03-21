@@ -2,15 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - Entry Point
- *
- *Programme that shows the last dgit of n
- *if n is greater than 5 show is greater than 5
- *if n is 0 show n is zero
- *if n is less than 6 show n is less than six and not 0
- *
- *Return: Always 0 (Success)
- */
+*main - Entry Point
+*
+*Programme that shows the last dgit of n
+*if n is greater than 5 show is greater than 5
+*if n is 0 show n is zero
+*if n is less than 6 show n is less than six and not 0
+*
+*Return: Always 0 (Success)
+*/
 
 int main(void)
 {
