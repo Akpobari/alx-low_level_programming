@@ -1,21 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *main -Entry Point
- *
- *Return: Always 0 (Success)
- */
+*main -Entry Point
+*
+*Return: Always 0 (Success)
+*/
 
 int main(void)
 {
-        int n;
+	int n;
 
-        n = 0;
-        while (n < 10)
-        {
-                printf("%d", n);
-                n += 1;
-        }
-	printf("\n");
-        return (0);
+	n = 0;
+	while (n < 10)
+	{
+		printf("%d", n);
+		n += 1;
+	}
+		printf("\n");
+	return (0);
 }
