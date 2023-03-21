@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- *main -Main Entry
- *
- *Return: Always 0 (Success)
- */
+*main -Main Entry
+*
+*Return: Always 0 (Success)
+*/
 
 int main(void)
 {
