@@ -1,34 +1,32 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * print_triangle - entry point
+ * main - entry point
  *
- * Description: Prints diagonals
- *@size: size of the triangle
- * Return: void
+ * Description: prints the numbers 1 - 100 w/
+ * Fizz for multiples of 3, Buzz for multiples of 5,
+ * and FizzBuzz for multiples of both
+ *
+ * Return: always 0
  */
-
-void print_triangle(int size)
+int main(void)
 {
-	int row, hashes, spaces;
+	int i;
 
-	if (size <= 0)
+	for (i = 1; i <= 100; i++)
 	{
-		_putchar('\n');
+		if (i % 15 == 0)
+			printf("FizzBuzz");
+		else if (i % 3 == 0)
+			printf("Fizz");
+		else if (i % 5 == 0)
+			printf("Buzz");
+		else
+			printf("%i", i);
+		if (i < 100)
+			printf(" ");
 	}
-	else
-	{
-		for (row = 1; row <= size; row++)
-		{
-			for (spaces = size - row; spaces >= 1; spaces--)
-			{
-				_putchar(' ');
-			}
-			for (hashes = 1; hashes <= row; hashes++)
-			{
-				_putchar('#');
-			}
-			_putchar('\n');
-		}
-	}
+	printf("\n");
+	return (0);
 }
