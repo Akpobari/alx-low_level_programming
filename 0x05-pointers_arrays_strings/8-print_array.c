@@ -7,7 +7,7 @@
  *
  *
  */
-void print _array(int *a, int *n)
+void print_array(int *a, int n)
 {
 	int index_of_array;
 
