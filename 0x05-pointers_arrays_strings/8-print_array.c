@@ -1,5 +1,6 @@
 #include "main.h"
 /**
+ * printf - function that prints the integers as entity
  * print_array - function that prints n elements of an array of integers
  * followed by a new line
  * @a: this is the input array
@@ -19,5 +20,5 @@ void print_array(int *a, int n)
 			printf(",");
 		}
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
