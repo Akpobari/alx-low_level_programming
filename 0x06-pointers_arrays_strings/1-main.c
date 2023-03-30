@@ -3,7 +3,6 @@
 
 /**
  * main - check the code
- * @strncat: function that concatenates two strings
  *
  * Return: Always 0.
  */
